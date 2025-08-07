@@ -339,3 +339,4 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 src/AduSkin.Demo/Properties/launchSettings.json
+/src/AduSkin/Nuget打包推送命令.txt

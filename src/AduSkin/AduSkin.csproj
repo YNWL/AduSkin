@@ -1,23 +1,31 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
    <PropertyGroup>
-      <TargetFrameworks>net47;net48;net6-windows;net9.0-windows;</TargetFrameworks>
+      <TargetFrameworks>net47;net48;net6-windows;net8.0-windows;net9.0-windows;</TargetFrameworks>
       <GenerateDocumentFile>true</GenerateDocumentFile>
       <UseWpf>true</UseWpf>
       <UseWindowsForms>true</UseWindowsForms>
       <NoWarn>$(NoWarn);0067</NoWarn>
       <PackageIcon>logo.png</PackageIcon>
       <PackageIconUrl />
-      <Version>1.2.0.0</Version>
+      <Version>100.1.2</Version>
       <Description>
          一款简单漂亮的WPF UI
          A Beautiful WPF Control UI
       </Description>
       <Platforms>AnyCPU;x64</Platforms>
-      <Copyright>AduSkin</Copyright>
+      <AssemblyName>AduSkin</AssemblyName>
+      <AssemblyCompany>BW</AssemblyCompany>
+      <AssemblyProduct>BWAduSkin</AssemblyProduct>
+      <AssemblyTitle>BWAduSkin</AssemblyTitle>
+      <Copyright>BW</Copyright>
+      <PackageId>BWAduSkin</PackageId>
       <PackageTags>WPF UI</PackageTags>
       <PackageReleaseNotes>控件细节优化</PackageReleaseNotes>
-      <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+      <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
       <PackageLicenseFile>README.md</PackageLicenseFile>
+      <Authors>BWAduSkin</Authors>
+      <Company>BWAduSkin</Company>
+      <Product>BWAduSkin</Product>
    </PropertyGroup>
    <ItemGroup>
       <Resource Include="Resources/**" />
